@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("Carpark 2 - 30 Available Spaces");
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("Carpark 3 - 20 Available Spaces");
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem("Carpark 4 - 15 Available Spaces");
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem("0 - 2 Hours = £2.00");
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem("3 - 5 Hours = £6.00");
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem("6 - 8 Hours = £10.00");
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem("8 Hours+ = £15.00");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Carpark 2 - 30 Available Spaces");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Carpark 3 - 20 Available Spaces");
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("Carpark 4 - 15 Available Spaces");
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("0 - 2 Hours = £2.00");
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("3 - 5 Hours = £6.00");
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("6 - 8 Hours = £10.00");
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("8 Hours+ = £15.00");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(grid_background));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -124,9 +124,9 @@
             // listView1
             // 
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem8,
-            listViewItem9,
-            listViewItem10});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3});
             this.listView1.Location = new System.Drawing.Point(16, 91);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(211, 53);
@@ -136,10 +136,10 @@
             // listView2
             // 
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem11,
-            listViewItem12,
-            listViewItem13,
-            listViewItem14});
+            listViewItem4,
+            listViewItem5,
+            listViewItem6,
+            listViewItem7});
             this.listView2.Location = new System.Drawing.Point(14, 150);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(211, 53);
@@ -150,81 +150,81 @@
             // 
             this.pass_reg1.Location = new System.Drawing.Point(272, 43);
             this.pass_reg1.Name = "pass_reg1";
-            this.pass_reg1.PasswordChar = '*';
             this.pass_reg1.Size = new System.Drawing.Size(99, 20);
             this.pass_reg1.TabIndex = 9;
+            this.pass_reg1.Text = "#EnterReg#";
             // 
             // pass_reg5
             // 
             this.pass_reg5.Location = new System.Drawing.Point(272, 150);
             this.pass_reg5.Name = "pass_reg5";
-            this.pass_reg5.PasswordChar = '*';
             this.pass_reg5.Size = new System.Drawing.Size(99, 20);
             this.pass_reg5.TabIndex = 11;
+            this.pass_reg5.Text = "#EnterReg#";
             // 
             // pass_reg4
             // 
             this.pass_reg4.Location = new System.Drawing.Point(272, 124);
             this.pass_reg4.Name = "pass_reg4";
-            this.pass_reg4.PasswordChar = '*';
             this.pass_reg4.Size = new System.Drawing.Size(99, 20);
             this.pass_reg4.TabIndex = 12;
+            this.pass_reg4.Text = "#EnterReg#";
             // 
             // pass_reg3
             // 
             this.pass_reg3.Location = new System.Drawing.Point(272, 95);
             this.pass_reg3.Name = "pass_reg3";
-            this.pass_reg3.PasswordChar = '*';
             this.pass_reg3.Size = new System.Drawing.Size(99, 20);
             this.pass_reg3.TabIndex = 13;
+            this.pass_reg3.Text = "#EnterReg#";
             // 
             // pass_reg2
             // 
             this.pass_reg2.Location = new System.Drawing.Point(272, 69);
             this.pass_reg2.Name = "pass_reg2";
-            this.pass_reg2.PasswordChar = '*';
             this.pass_reg2.Size = new System.Drawing.Size(99, 20);
             this.pass_reg2.TabIndex = 14;
+            this.pass_reg2.Text = "#EnterReg#";
             // 
             // pass_bay4
             // 
             this.pass_bay4.Location = new System.Drawing.Point(377, 124);
             this.pass_bay4.Name = "pass_bay4";
-            this.pass_bay4.PasswordChar = '*';
             this.pass_bay4.Size = new System.Drawing.Size(99, 20);
             this.pass_bay4.TabIndex = 15;
+            this.pass_bay4.Text = "#EnterPass#";
             // 
             // pass_bay5
             // 
             this.pass_bay5.Location = new System.Drawing.Point(377, 150);
             this.pass_bay5.Name = "pass_bay5";
-            this.pass_bay5.PasswordChar = '*';
             this.pass_bay5.Size = new System.Drawing.Size(99, 20);
             this.pass_bay5.TabIndex = 16;
+            this.pass_bay5.Text = "#EnterPass#";
             // 
             // pass_bay3
             // 
             this.pass_bay3.Location = new System.Drawing.Point(377, 95);
             this.pass_bay3.Name = "pass_bay3";
-            this.pass_bay3.PasswordChar = '*';
             this.pass_bay3.Size = new System.Drawing.Size(99, 20);
             this.pass_bay3.TabIndex = 17;
+            this.pass_bay3.Text = "#EnterPass#";
             // 
             // pass_bay2
             // 
             this.pass_bay2.Location = new System.Drawing.Point(377, 69);
             this.pass_bay2.Name = "pass_bay2";
-            this.pass_bay2.PasswordChar = '*';
             this.pass_bay2.Size = new System.Drawing.Size(99, 20);
             this.pass_bay2.TabIndex = 18;
+            this.pass_bay2.Text = "#EnterPass#";
             // 
             // pass_bay1
             // 
             this.pass_bay1.Location = new System.Drawing.Point(377, 44);
             this.pass_bay1.Name = "pass_bay1";
-            this.pass_bay1.PasswordChar = '*';
             this.pass_bay1.Size = new System.Drawing.Size(99, 20);
             this.pass_bay1.TabIndex = 19;
+            this.pass_bay1.Text = "#EnterPass#";
             this.pass_bay1.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
             // button8
@@ -350,9 +350,9 @@
             // 
             this.pass_coin.Location = new System.Drawing.Point(326, 187);
             this.pass_coin.Name = "pass_coin";
-            this.pass_coin.PasswordChar = '*';
             this.pass_coin.Size = new System.Drawing.Size(83, 20);
             this.pass_coin.TabIndex = 32;
+            this.pass_coin.Text = "#EnterPass#";
             // 
             // button18
             // 
@@ -408,9 +408,9 @@
             // 
             this.pass_DiscountCode.Location = new System.Drawing.Point(632, 43);
             this.pass_DiscountCode.Name = "pass_DiscountCode";
-            this.pass_DiscountCode.PasswordChar = '*';
             this.pass_DiscountCode.Size = new System.Drawing.Size(76, 20);
             this.pass_DiscountCode.TabIndex = 40;
+            this.pass_DiscountCode.Text = "#Discount#";
             // 
             // button23
             // 
@@ -435,9 +435,9 @@
             // 
             this.pass_PrepayCode.Location = new System.Drawing.Point(640, 274);
             this.pass_PrepayCode.Name = "pass_PrepayCode";
-            this.pass_PrepayCode.PasswordChar = '*';
             this.pass_PrepayCode.Size = new System.Drawing.Size(76, 20);
             this.pass_PrepayCode.TabIndex = 43;
+            this.pass_PrepayCode.Text = "#Prepay#";
             // 
             // button24
             // 
